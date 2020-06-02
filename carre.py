@@ -52,6 +52,6 @@ exo_exemple = ExerciseFunction(
     inputs_test,
     result_renderer=PPrintRenderer(width=20),
     font_size="75%",
-    header_font_size="200%"
+    header_font_size="200%",
 )
 
