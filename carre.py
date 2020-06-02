@@ -44,14 +44,14 @@ inputs_test = [
 #
 exo_exemple = ExerciseFunction(
     # Le premier argument est la "bonne" fonction
-    # Il est recommandé d'utiliser le même nom que pour le notebook, pour que lors de
-    #l'affichage des réponses, le nom de la fonction apparaisse aussi
-    #sinon, c'est le nom du fichier qui s'affiche
+    # Il est recommandé d'utiliser le MEME nom que pour le notebook, pour
+    # que lors de l'affichage des réponses, pour que le nom de la fonction
+    # apparaisse aussi sinon, c'est le nom du fichier qui s'affiche
     carre,
 
     inputs_test,
     result_renderer=PPrintRenderer(width=20),
     font_size="75%",
-    header_font_size="200%",
+    header_font_size="200%"
 )
 
