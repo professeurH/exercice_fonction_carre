@@ -1,1 +1,1 @@
-nbautoeval == 1.1.4
+nbautoeval == 1.1.5
